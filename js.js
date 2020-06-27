@@ -38,11 +38,11 @@ $(document).ready(function () {
             var uvLight = "";
             var lineOne = $("<header>").text(LocationName);
             locationB.append(lineOne)
-            var lineTwo = $("<p>").text("The temperature is: " + temperature + "F");
+            var lineTwo = $("<p>").text("The temperature is: " + temperature + " °F");
             locationB.append(lineTwo)
-            var lineThree = $("<p>").text("The humidity is: " + humidity);
+            var lineThree = $("<p>").text("The humidity is: " + humidity +"%");
             locationB.append(lineThree)
-            var lineFour = $("<p>").text("The windspeed is: " + windSpeed + "m/h");
+            var lineFour = $("<p>").text("The wind speed is: " + windSpeed + "m/h");
             locationB.append(lineFour)
 
             
